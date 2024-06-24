@@ -69,12 +69,16 @@ function displayServantList() {
 
 var ids = 1; 
 
-function showResults() {         
+function showResults() {      
+
     setTimeout(function() {
+        console.log(ids);
         remove(ids);
-        ids++;                    
+        ids += 1;                    
         if (ids < 11) {           
-            showResults();             
+            showResults();   
+        } else {
+            ids = 1;
         }                       
     }, 500)
 }
