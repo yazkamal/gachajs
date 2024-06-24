@@ -1,0 +1,35 @@
+{"star5" : [
+    {
+        "id" : 1 , 
+        "name" : "Artoria" , 
+        "class" : "Saber"  
+    },
+    {
+        "id" : 2 , 
+        "name" : "Schatch" , 
+        "class" : "Lancer" 
+    },
+    {
+        "id" : 3 , 
+        "name" : "Gilgamesh" , 
+        "class" : "Archer"  
+    }
+],
+
+"star4" : [
+    {
+        "id" : 4 , 
+        "name" : "Saber 4" , 
+        "class" : "Saber" 
+    },
+    {
+        "id" : 5 , 
+        "name" : "Lancer 4" , 
+        "class" : "Lancer"  
+    },
+    {
+        "id" : 6 , 
+        "name" : "Archer 4" , 
+        "class" : "Archer" 
+    }
+]}

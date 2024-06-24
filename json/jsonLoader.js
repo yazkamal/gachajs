@@ -1,0 +1,1 @@
+import servantList from "./servantList.json" assert { type: 'json' };

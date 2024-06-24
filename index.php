@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ssr {
+            background-color: gold; 
+            border:1px solid black; 
+            width : 11vh; 
+            height:12vh;
+        }
+
+
+        .sr {
+            background-color: #9762de; 
+            border:1px solid black; 
+            width : 11vh; 
+            height:12vh;
+        }
+
+        .trash {
+            background-color: gray; 
+            border:1px solid black; 
+            width : 11vh; 
+            height:12vh;
+        }
+
+        .hid {
+            display: none;
+        }
+
+        .resultbox {
+            background-color: black !important;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <script type="text/javascript" src="json/servantList.json"></script> -->
+    <script src="json/script.js"></script>
+    <script type="module" src="json/jsonLoader.js"></script>
+    <div id="container" style="display: flex; gap:2vh;">
+        <div id="list">
+            <label for="">List for Available Servant : </label>
+            <div id="star5servant">
+                <label for="">Star 5</label>
+                <ul id="place5star">
+        
+                </ul>
+            </div>
+            <div id="star4servant">
+                <label for="">Star 4</label>
+                <ul id="place4star">
+        
+                </ul>
+            </div>
+        </div>
+        <div id="gachaSection" style="width:55vh;">
+            <h2>Gacha Screen</h2>
+            <div id="gachaStar">
+
+            </div>
+            <div id="gachaScreen" style="border: 1px solid black; width:55vh; height:28vh; padding:2vh;gap:2vh;">
+                <div id="firstRow" style="display:flex; gap:2vh;">
+                    
+                </div>
+                <br>
+                <div id="secondRow" style="display:flex; gap:2vh;">
+                    
+                </div>
+            </div>
+            <button style="float: right;" onclick="gacha()">Gacha!</button>
+        </div>
+    </div>
+    
+</body>
+</html>
